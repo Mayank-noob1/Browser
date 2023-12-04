@@ -11,14 +11,13 @@
 One chapter of the book in two days.
 
 ### How to run:
-I don't know why, bs4 module is not detected by python3. Actually my settings are pretty messed up as I didn't how to setup back in my first year and I am carrying those settings around.
-So how to run section is for me to remember how to run.
-- #### Chapter1.py & Chapter2.py & Chapter3.py & Chapter4.py;
+This for me to remember and fix my environment variables and all the packages installed.
+- #### Chapter1.py & Chapter2.py & Chapter3.py & Chapter4.py & Chapter5.py;
     - Command -> python3-intel64 Chapter<i_>.py <site_address>
     - Here site address must have http:// or https:// before URL.
 
-### What I learnt:
-Here is a section for me to remember what I learnt from the chapter.
+### What I learned:
+Here is a section for me to remember what I learned from the chapter.
  - #### Chapter 1:
     - Brushed up my network concepts.
     - Made a basic url request fetcher.
@@ -36,10 +35,17 @@ Here is a section for me to remember what I learnt from the chapter.
     - We made the parsing context sensitive by knowing implicit closing tags.
     - DOM ( Document Object Model ) converts any HTML or XML or related format to a tree. Which is helpful in parsing the document.
     - Attributes are really tricky to handle. ( Try handling attribute ).
+- #### Chapter 5:
+    - We finally made a render tree. We created a render tree on the HTML tree.
+    - We created two heterogenous nodes for the tree. One type of node is the head which doesn't have any parent and the second type of node which is the main/recursive node.
+    - Rendering is done with relative position from the parent node.
+    - Rectangle/Frame is laid first then the text is rendered.
+    - In the recursive pass we first evaluate horizontal width then in the return of function we get the vertical height of each node.
       
 ### Fixes:
 1) Python reinstall and clean up for modules to run.
-2) Scrollbar not scrolling the canvas.
-3) Touchpad event not working (if it is considered as mouse event).
+2) Scrollbar not scrolling as it is written on canvas. Need to add a frame and put the whole tree into the frame?.
+3) Touchpad event not working (if it is considered as a mouse event).
 4) Need to handle entities like &lt and &gt.
 5) Can add support for address with no http:// or https://.
+6) Add support for list items by bullet points and indentation.
