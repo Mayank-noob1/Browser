@@ -231,7 +231,7 @@ class Browser:
         )
 
     def load(self, url):
-        headers, body = request(url)
+        headers, body = URL(url).request()
         self.source = body
         self.tokens = HTMLParser(body).parse()
         self.display_list = Layout(self.tokens).display_list
