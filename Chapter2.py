@@ -47,7 +47,7 @@ class Browser:
         self.window.bind("<Down>", self.scrolldown)
         self.window.bind("<Up>", self.scrollup)
         self.window.bind("<Configure>",self.resize)
-        self.window.bind_all("<MouseWheel>",self.onMouseScroll)
+        self.window.bind("<MouseWheel>",self.onMouseScroll)
 
         self.vbar = tkinter.Scrollbar(self.window,orient="vertical")
         self.vbar.config(command=self.canvas.yview)
@@ -57,11 +57,10 @@ class Browser:
         self.canvas.pack(side="left",fill="both",expand=1)
 
     def load(self, url):
-        headers, body = request(url)
+        headers, body = URL(url).request(url)
         self.data = lex(body)
         self.display_list = layout(self.data)
         self.draw()
-        print(self.data)
 
     def draw(self):
         self.canvas.delete("all")
@@ -88,8 +87,6 @@ class Browser:
     def onMouseScroll(self,event):
         self.canvas.yview_scroll(int(-1*(event.delta/120)), "units")
         self.draw()
-
-
 
 if __name__ == "__main__":
     import sys
