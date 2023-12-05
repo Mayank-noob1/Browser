@@ -1,4 +1,4 @@
-# <b>JAD</b> browser.
+# <b>JAD</b> browser
 - I have a vacation this December, so I am working on building a browser project.
 - I will write progress in this README.
 
@@ -12,9 +12,8 @@ One chapter of the book in two days.
 
 ### How to run:
 This for me to remember and fix my environment variables and all the packages installed.
-- #### Chapter1.py & Chapter2.py & Chapter3.py & Chapter4.py & Chapter5.py;
-    - Command -> python3-intel64 Chapter<i_>.py <site_address>
-    - Here site address must have http:// or https:// before URL.
+- Command -> python3-intel64 Chapter<i_>.py <site_address>
+- Here site address must have http:// or https:// before URL.
 
 ### What I learned:
 Here is a section for me to remember what I learned from the chapter.
@@ -41,6 +40,12 @@ Here is a section for me to remember what I learned from the chapter.
     - Rendering is done with relative position from the parent node.
     - Rectangle/Frame is laid first then the text is rendered.
     - In the recursive pass we first evaluate horizontal width then in the return of function we get the vertical height of each node.
+ - #### Chapter 6:
+    - Digital Principle: produce maximally conformant output but accept even minimally conformant input.
+    - We added CSS support.
+    - Css statments are of the form <selector_tag> {[PROPERTY:VALUE;]*}
+    - We have to take care of normal and relative url.
+    - We stored each node's property in one pass and then painted node.
       
 ### Fixes:
 1) Python reinstall and clean up for modules to run.
@@ -49,3 +54,6 @@ Here is a section for me to remember what I learned from the chapter.
 4) Need to handle entities like &lt and &gt.
 5) Can add support for address with no http:// or https://.
 6) Add support for list items by bullet points and indentation.
+
+### Need to read again:
+- Chapter 6
