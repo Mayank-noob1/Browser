@@ -369,7 +369,7 @@ class Browser:
         )
 
     def load(self, url):
-        headers, body = request(url)
+        headers, body = URL(url).request()
         self.nodes = HTMLParser(body).parse()
         self.document = DocumentLayout(self.nodes)
         self.document.layout()
