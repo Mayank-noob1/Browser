@@ -46,6 +46,10 @@ Here is a section for me to remember what I learned from the chapter.
     - Css statments are of the form <selector_tag> {[PROPERTY:VALUE;]*}
     - We have to take care of normal and relative url.
     - We stored each node's property in one pass and then painted node.
+ - #### Chapter 7:
+    - Browser -> ( Chrome + Tab ).
+    - Tab -> Document -> Block -> Line -> Text.
+    - Chrome -> Buttons.
       
 ### Fixes:
 1) Python reinstall and clean up for modules to run.
@@ -54,6 +58,5 @@ Here is a section for me to remember what I learned from the chapter.
 4) Need to handle entities like &lt and &gt.
 5) Can add support for address with no http:// or https://.
 6) Add support for list items by bullet points and indentation.
-
-### Need to read again:
-- Chapter 6
+7) Window title.
+8) Ctrl + N for new tab.
