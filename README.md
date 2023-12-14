@@ -50,10 +50,14 @@ Here is a section for me to remember what I learned from the chapter.
     - Browser -> ( Chrome + Tab ).
     - Tab -> Document -> Block -> Line -> Text.
     - Chrome -> Buttons.
+  - #### Chapter 8:
+    - Support to input and buttons.
+    - Support to forms through GET and POST.
+    - Browsers are man in the middle and if we set up a proxy server on browser request, we can get so many things.
       
 ### Fixes:
 1) Python reinstall and clean up for modules to run.
-2) Scrollbar not scrolling as it is written on canvas. Need to add a frame and put the whole tree into the frame?.
+2) Scrollbar not scrolling as it is written on canvas. Need to add a frame and put the whole tree into the frame?
 3) Touchpad event not working (if it is considered as a mouse event).
 4) Need to handle entities like &lt and &gt.
 5) Can add support for address with no http:// or https://.
