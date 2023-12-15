@@ -12,7 +12,8 @@ One chapter of the book in two days.
 
 ### How to run:
 This for me to remember and fix my environment variables and all the packages installed.
-- Command -> python3-intel64 Chapter<i_>.py <site_address>
+So dukpy was not working for me. I installed conda and this command is in Browser-env.
+- Command -> python3.1 Chapter<i_>.py <site_address>
 - Here site address must have http:// or https:// before URL.
 
 ### What I learned:
@@ -54,7 +55,10 @@ Here is a section for me to remember what I learned from the chapter.
     - Support to input and buttons.
     - Support to forms through GET and POST.
     - Browsers are man in the middle and if we set up a proxy server on browser request, we can get so many things.
-      
+  - #### Chapter 9:
+    - We are using dukpy a Python API for JS.
+    - export_function is the binding of the JS function to the Python function.
+    - Added support for JS functions via the browser's own JS.
 ### Fixes:
 1) Python reinstall and clean up for modules to run.
 2) Scrollbar not scrolling as it is written on canvas. Need to add a frame and put the whole tree into the frame?
@@ -64,3 +68,6 @@ Here is a section for me to remember what I learned from the chapter.
 6) Add support for list items by bullet points and indentation.
 7) Window title.
 8) Ctrl + N for new tab.
+
+### Further readings:
+1) JavaScript
