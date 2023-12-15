@@ -14,7 +14,6 @@ FONTS = {}
 
 INPUT_WIDTH_PX = 200
 
-
 INHERITED_PROPERTIES = {
     "font-size": "16px",
     "font-style": "normal",
