@@ -2,12 +2,12 @@ import socket,urllib.parse,random,html
 
 SESSIONS = {}
 LOGINS = {
-    "jhanvi": "1",
-    "disha": "2"
+    "1": "1",
+    "2": "2"
 }
 ENTRIES = [
-    ("thank you", "jhanvi"),
-    ("koi nahi", "disha"),
+    ("I am 1", "1"),
+    ("I am 2", "2"),
 ]
 
 s = socket.socket(
